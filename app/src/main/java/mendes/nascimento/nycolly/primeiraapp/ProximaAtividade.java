@@ -13,6 +13,7 @@ public class ProximaAtividade extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         //setando a proxima atividade,ou seja, criando uma ligação entre as duas páginas do app
         setContentView(R.layout.activity_proxima_atividade);
+        // Pegando o intent que iniciou essa tela
         Intent a=getIntent();
         String textodigitado= a.getStringExtra("Texto");
         //definindo o textView que vai receber o texto
